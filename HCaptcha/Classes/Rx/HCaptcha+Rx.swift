@@ -51,7 +51,7 @@ public extension Reactive where Base: HCaptcha {
                 do {
                     single(.success(try result.dematerialize()))
                 } catch {
-                    single(.failure(error))
+                    single(.error(error))
                 }
             }
 

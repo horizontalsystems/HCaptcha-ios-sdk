@@ -102,7 +102,7 @@ class ViewController: UIViewController {
             .disposed(by: disposeBag)
 
         let validate = hcaptcha.rx.validate(on: view, resetOnError: false)
-            .catch { error in
+            .catchError { error in
                 return .just("Error \(error)")
             }
             .debug("validate")
@@ -119,7 +119,7 @@ class ViewController: UIViewController {
 
         let isEnabled = isLoading
             .map { !$0 }
-            .catchAndReturn(false)
+            .catchErrorJustReturn(false)
             .share(replay: 1)
 
         isEnabled

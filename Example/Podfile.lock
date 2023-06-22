@@ -3,23 +3,23 @@ PODS:
   - HCaptcha/Core (2.5.0)
   - HCaptcha/RxSwift (2.5.0):
     - HCaptcha/Core
-    - RxSwift (~> 6.2.0)
-  - RxBlocking (6.2.0):
-    - RxSwift (= 6.2.0)
-  - RxCocoa (6.2.0):
-    - RxRelay (= 6.2.0)
-    - RxSwift (= 6.2.0)
-  - RxRelay (6.2.0):
-    - RxSwift (= 6.2.0)
-  - RxSwift (6.2.0)
+    - RxSwift (~> 5.1.3)
+  - RxBlocking (5.1.3):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - AppSwizzle (~> 1.3)
   - HCaptcha/Core (from `../`)
   - HCaptcha/RxSwift (from `../`)
-  - RxBlocking (~> 6.2.0)
-  - RxCocoa (~> 6.2.0)
+  - RxBlocking (~> 5.1.3)
+  - RxCocoa (~> 5.1.3)
   - SwiftLint (~> 0.33)
 
 SPEC REPOS:
@@ -37,13 +37,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppSwizzle: db36e436f56110d93e5ae0147683435df593cabc
-  HCaptcha: d704061e9e5362f8e1a1ade571f39642c37c306d
-  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
-  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
-  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
-  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  HCaptcha: 19f7a94077ee8d3b4b0674c36df70d55cc4ff79b
+  RxBlocking: 5aed110d3996c0a4b07340810b9ba230fa70df5c
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 44657674683c7639f916ef6eb6fae5387395d652
+PODFILE CHECKSUM: 798169cd4241d94e34309052b59c804a6b03a4e5
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.11.3
